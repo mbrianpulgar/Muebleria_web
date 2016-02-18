@@ -1,15 +1,11 @@
 #banner{
-	margin-top: 40px;
+	margin-top: 50px;
 	position: relative;
-	margin-bottom: 0 auto;
-	background:#D9BDAD;
-	min-height: 400px;
-
 }
 
 #banner img {
 	width: 100%;
-	min-height: 400px;
+	height: 100%;
 }
 
 #banner .contenedor {
@@ -19,15 +15,9 @@
 	transform:translateX(-50%) translateY(-50%);
 }
 
-#banner .contenedor .fondo{
-	padding: 10px;
-	background: rgba(251, 179, 81, 0.5);
-}
-
-#banner .tit{
+#banner h2{
 	font-size: 23px;
-	color: #F2F2F2;
-	border-bottom: none;
+	color: #A6453C;
 }
 
 #banner p{
@@ -37,7 +27,7 @@
 #banner a{
 	display: block;
 	text-align: center;
-	width: 200px;
+	width: 100px;
 	color: #F2F2F2;
 	text-decoration: none;
 	padding: 5px;
@@ -50,7 +40,7 @@
 }
 
 @media (min-width: 480px){
-	#banner .tit{
+	#banner h2{
 		font-size: 40px;
 	}
 
@@ -61,18 +51,18 @@
 
 @media(min-width: 768px){
 	#banner {
+		height: 300px;
 		overflow: hidden;
 	}
 
 	#banner img {
-		height: 100%;
+		height: auto;
 		margin-top: -100px;
 	}
 }
 
 @media (min-width: 1024px){
 	#banner img {
-		margin-top: -350px;
-		height: 100%;
+		margin-top: -370px;
 	}
 }
